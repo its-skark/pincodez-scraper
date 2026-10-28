@@ -1,0 +1,41 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Python environments and tool caches
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Devbox's local environment cache. Keep devbox.json and devbox.lock tracked.
+.devbox/
+
+# Local configuration and editor state
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+
+# Local browser/tool sessions
+.playwright-mcp/
+
+# Runtime logs and generated scraper output.
+# Recreate these with the CLI; do not commit dataset snapshots by default.
+logs/
+data/
+*.part
+
+# SQLite runtime files
+*.sqlite-wal
+*.sqlite-shm
